@@ -2311,3 +2311,9 @@ p{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 0px;
 }
+#Authform {
+    position: fixed;
+    background: white;
+    height: 480px;
+ 
+}

@@ -264,8 +264,17 @@
     		$.magnificPopup.close();
     });
 
-
+$(Authbutton).click(function() {
+        var x = document.getElementById("Authtextbox").value;
+        if(x == "password") {
+            document.getElementById("Authform").style.visibility = "hidden";
+        } else {
+            location.reload();
+            
+        }
+        });
     
+        
     
 	/*-----------------------------------------------------*/
   	/* Back to top
