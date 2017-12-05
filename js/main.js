@@ -265,10 +265,12 @@
     });
 
 $(Authbutton).click(function() {
+        var x = (document.getElementById("Authtextbox")).value;
+    if(x == "connect18") {
             document.getElementById("Authform").style.visibility = "hidden";
-        } else {
+        } 
+    else {
             location.reload();
-            
         }
         });
     
